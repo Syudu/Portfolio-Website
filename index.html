@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudarshan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/37e42548ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id= "header">
+    <div class="container">
+        <nav>
+            <img src="images/output-onlinepngtools (1).png" class = "logo">
+            <ul id="sidemenu">
+                <li><a href = "#header">Home</a></li>
+                <li><a href="#about"> About </a></li>
+                <li><a href = "#Projects">Projects </a></li>
+                <li><a href = "#Publications">Publications</a></li>
+                <li><a href = "#contact">Contact Me!</a></li>
+                <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <!-- <p></p> -->
+
+            <h1> <span_t> Hi, <br> I'm <span> <span_3> Sudarshan Balaji</span_3> </span> <br> Welcome to my <span_1> Portfolio </span_1> Website! </span_t></h1>
+            <a href="images/Resume_Updated.pdf" download class="btn" class = "btn2">Download Resume</a>
+        </div>
+    </div>
+</div> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1"> <img src="images/soft copy 2.jpg">   </div>
+            <div class="about-col-2">   
+                <h1 class="sub-title"> About Me </h1>
+                <p><b_1> I am an ambitious and a curiosity driven person capable of applying calmness and an analytical behavior in a professional locale. History of teamwork and result-driven behavior are demonstrated through Extra-curricular activities such as teaching the under-previledged, rejuvinating schools and in-depth projects conducted at an acedemic environment. <br><br>
+                    Interests include:  Data Science, Data Analytics, Machine Learning, Image and Signal Processing. </b_1></p>
+                      <div class="tab-titles">
+                        <p class= "tab-links active-link" onclick="opentab('Education')"> Education </p>
+                        <p class= "tab-links" onclick="opentab('skills')"> Skills </p>
+                        <p class= "tab-links" onclick="opentab('Awards')"> Awards & Achievements </p>
+                      </div>
+                      <div class="tab-contents active-tab" id = 'Education'>
+                        <ul>
+                            <li>
+                                <span> Batchelor in Engineering: Electronics and Telecommunication Engg. (Aug. 2022) </span> <br>
+                                RV College of Engineering, Bengaluru, Karnataka, India <br>
+                                Finished within top 10% of the class. GPA: 3.5/4
+                            </li>
+                            <li>
+                                <span> Pre-University Education (Apr. 2018) </span> <br>
+                                VVS Sardar Patel PU College, Bengaluru, Karnataka, India 
+                            </li>
+                            <li>
+                                <span> High School Education (Apr. 2016) </span> <br>
+                                VVS SPHS, Bengaluru, Karnataka, India.
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id = 'skills'>
+                        <ul>
+                            <li>
+                                <span> Python </span>
+                           
+                            </li>
+                            <li>
+                                <span> MatLab  </span> 
+                            </li>
+                            <li>
+                                <span> LaTeX </span> 
+                            </li>
+                            <li>
+                                <span> Interpersonal Skills </span> 
+                            </li>
+                            <li>
+                                <span> Flexible </span> 
+                            </li>
+                            <li>
+                                <span> Analytical </span> 
+                            </li>
+                            <li>
+                                <span> Research Oriented </span> 
+                            </li>
+                            <li>
+                                <span> Problem Solver </span> 
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id = 'Awards'>
+                        <ul>
+                            <li>
+                                <span> Cash Award </span> <br>
+                                Was awarded a Cash Award for my pertenacious efforts towards the field of <span_1> Mathematics & Indian Knowledge Systems (IKS) </span_1>
+                                                               
+                            </li>
+                            <li>
+                                <span> Letter of Appreciation </span> <br>
+                                Was awarded a Letter of Appreciation by <span_1> Dr. B Mahadevan</span_1>, Professor, Production & Operations Management, <span_1> IIM Bangalore </span_1> as a form of recognition towards the contribution made in the field of <span_1>Indian Knowledge Systems </span_1>.
+                            </li>
+                            <li>
+                                <span> Certificate of Appreciation </span> <br>
+                                Was awarded a letter of Appreciation for the role played in the Data Collection team of <span_1> IISc Research and Innovation (WIRIN) Project </span_1>. Was also part of the RADAR Division under the WIRIN Project which surveyed and researched the effects & impact of RADARs in Autonomous vehicles.
+                            </li>
+                            <li>
+                                <span> Part of National Service Scheme (NSS) </span> <br>
+                                Was a part of the <span_1> National Service Scheme (NSS) </span_1>  and was awarded for the contributions made towards the upliftment of under-previledged and economically-backward students. 
+                            </li>
+                            <li>
+                                <span> Memorendum of Understanding (MoU) </span> <br>
+                                Was a part of a  <span_1> Memorendum of Understanding (MoU) </span_1>between <span_1> RV College of Engineering, India </span_1>and <span_1>Purdue University, West Lafayette, USA, </span_1>  which aims at finding novel methods for Detection of Potential Vulnerabilities within GitHub workflows.
+                            </li>
+                        </ul>
+                      </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Projects -->
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-code-compare"></i>
+                <h2>Detection of Vulnerabilities</h2>
+                <p> Detection of Vulnerabilities potentially within GitHub Workflows using Machine Learning. </p>
+                <!-- <a href="#"> Learn More </a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Detection of Vehicles</h2>
+                <p> Detection of Vehicles under extreme weather conditions using fusion of RADAR and Camera, further processing & detecting using ML. </p>
+                <!-- <a href="#"> Learn More </a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-display"></i>
+                <h2>Data Collection</h2>
+                <p> Collection of various traffic scenarios prevalent in Bangalore for annotation. This data is later used within various ML Modules built for testing purposes. </p>
+                <!-- <a href="#"> Learn More </a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-brain"></i>
+                <h2>Contribution to IKS</h2>
+                <p> Contribution to Indian Knowledge Systems through an AICTE sponsored project on the Development of a textbook on IKS for Engineering students. </p>
+                <!-- <a href="#"> Learn More </a> -->
+            </div>
+
+
+        </div>
+        <!-- <a href="" class = 'btn'> See More </a> -->
+<!-- Botton option above -->
+    </div>
+</div>
+
+<div id="Publications">
+<div class="container">
+    <h1 class="sub-title">Publications</h1>
+    <div class="publication-list">
+        <div class="work">
+            <img src="images/work-1.png" alt="">
+            <div class="layer">
+                <h3>Kuṭṭīkāra Equations in Mahāvīrācārya's Gaṇitasārasaṅgraha </h3>
+                <p> Accepted at an International Conference conducted on Dec. 11 - Dec. 13, 2020 which was conducted virtually in view of the Pandemic situation. This was organized by JAINA, also funded by Sir John Templeton Foundation, Boston. The paper is published as a part of a monograph by the World Scientific Publishing Company in 2022.</p>
+                <a href="https://www.worldscientific.com/worldscibooks/10.1142/12813#t=aboutBook"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-1.png" alt="">
+            <div class="layer">
+                <h3>Recent Advances in Nanomaterials Used for RFID Technology and Their Applications</h3>
+                <p> Accepted in the International Conference on Technologies for Smart Green Connected Societies (ICTSGS -1) conducted virtually on Nov. 29 - Nov. 30 2021.</p>
+                <a href="https://iopscience.iop.org/article/10.1149/10701.12189ecst"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>  
+        <div class="work">
+            <img src="images/work-1.png" alt="">
+            <div class="layer">
+                <h3>Metal Oxide Based Electrochromic Materials: Recent Advances in Synthesis, Characterization, and Applications</h3>
+                <p> Accepted in the International Conference on Technologies for Smart Green Connected Societies (ICTSGS -1) conducted virtually on Nov. 29 - Nov. 30 2021. </p>
+                <a href="https://iopscience.iop.org/article/10.1149/10701.18583ecst"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>      
+        <div class="work">
+            <img src="images/work-1.png" alt="">
+            <div class="layer">
+                <h3>Design of circularly polarized Square Patch Antenna Array on different substrates</h3>
+                <p> Published in 2021 2nd Global Conference for Advancement in Technology (GCAT) which was held on Oct. 1 - Oct. 3, 2021</p>
+                <a href="https://ieeexplore.ieee.org/abstract/document/9587573"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-1.png" alt="">
+            <div class="layer">
+                <h3> Mathematics in Tiloyapannatti </h3>
+                <p> Accepted at the International Conference of Mathematics during Nov. 3 - Nov. 5</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+<!-- <a href="#" class="btn">See More</a> -->
+</div>
+
+</div>
+
+<!-- Contatc Info starts here -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me!</h1>
+            I'm interested in freelance opportunities - especially ambitious or large projects, related to Data Science and Machine Learning. However, if you have a question, don't hesitate to use the form.
+            <p> <i class="fa-solid fa-envelope"></i> sudarshan.balaji2000@gmail.com</p>
+            <!-- <p><i class="fa-regular fa-address-book"></i>0123456789</p> -->
+            <div class="social-icons">
+                    <a href="https://github.com/Syudu"><i class="fa-brands fa-github"></i> </a>
+                    <a href="https://www.linkedin.com/in/sudarshan-b-559060212/"><i class="fa-brands fa-linkedin"></i> </a>
+            </div>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type = "text" name = "Name" placeholder="Your Name" required>
+                <input type="email" name = "email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="6" placeholder="Your Message" required></textarea>
+                <button href="#" type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg">  </span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sudarshan Balaji. Made using HTML & CSS </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add('active-tab')
+    }
+
+</script>
+
+<script>
+    var sidemnu = document.getElementById('sidemenu');
+
+    function openmenu(){
+        sidemnu.style.right= '0';
+    }
+    function closemenu(){
+        sidemnu.style.right= '-200px';
+    }
+    
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyDz3vpuIzGWVcmFunLbCtg7E7yDAFXkK7RFN-dZxE-gpClmRq8ZqAIethv9NgOg-su/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
